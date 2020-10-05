@@ -1,2 +1,5 @@
 *.class
 *.pdf
+*.DS_Store
+*.classpath
+*.project
