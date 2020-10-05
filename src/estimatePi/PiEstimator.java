@@ -41,7 +41,7 @@ public class PiEstimator {
 		 
 		 double sumOfSquares = 0;
 		 for (double num : list) {
-			 sumOfSquares += Math.pow(num - average, 2);
+			 sumOfSquares += (num - average) * (num - average);
 		 }
 		 
 		 return Math.sqrt(sumOfSquares/ (double) list.size());
